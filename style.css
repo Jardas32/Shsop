@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #000000;
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav li a:hover {
+    color: red;
+    transition: all .4s;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #fff;
+    padding: 30px 0;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.titlePage {
+    text-align: center;
+}
+
+.goods {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(251, 251, 251);
+    background-image: linear-gradient(to bottom,
+     rgb(160, 160, 160), rgb(255, 255, 255));
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 15px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.14));
+    border-radius: 4px;
+}
+
+.imgcard {
+    width: 300px;
+}
+
+.title {
+    color: rgb(52, 75, 75);
+}
+
+.price {
+    background-color: rgb(246, 246, 0);
+    color: red;
+    padding: 3px 10px;
+    border-radius: 100%;
+    font-weight: 600;
+    border: 2px solid grey;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 3px 6px;
+    background-color: rgb(120, 120, 120);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+#btn:hover {
+    transition: all .4s;
+    background-color: black;
+}
+
+footer {
+    background-color: #303030;
+    width: 1920px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.soc {
+    display: flex;
+    column-gap: 10px;
+}
+
+.soc li a img {
+    width: 32px;
+}
+
